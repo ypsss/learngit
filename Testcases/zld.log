@@ -1,0 +1,913 @@
+2022-09-02 10:03:34,467 - [test_recharge.py-->line:51] - ERROR: 用例--【充值成功】---执行失败
+2022-09-02 10:03:34,468 - [test_recharge.py-->line:52] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 10:03:34,551 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 10:03:34,552 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 10:03:34,622 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 10:03:34,706 - [test_recharge.py-->line:51] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 10:03:34,706 - [test_recharge.py-->line:52] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-02 10:03:34,833 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-02 10:03:34,833 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 10:03:34,908 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-02 10:03:34,908 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 10:03:34,977 - [test_recharge.py-->line:55] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 13:59:36,290 - [test_reqister.py-->line:36] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 13:59:36,292 - [test_reqister.py-->line:37] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 33, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 13:59:36,358 - [test_reqister.py-->line:36] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 13:59:36,358 - [test_reqister.py-->line:37] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 33, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 13:59:36,424 - [test_reqister.py-->line:40] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 13:59:36,483 - [test_reqister.py-->line:40] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 13:59:36,548 - [test_reqister.py-->line:40] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 13:59:36,615 - [test_reqister.py-->line:40] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 13:59:36,682 - [test_reqister.py-->line:40] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:02:59,932 - [test_reqister.py-->line:36] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:02:59,933 - [test_reqister.py-->line:37] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 33, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:03:00,009 - [test_reqister.py-->line:36] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:03:00,009 - [test_reqister.py-->line:37] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 33, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:03:00,069 - [test_reqister.py-->line:40] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:03:00,132 - [test_reqister.py-->line:40] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:03:00,218 - [test_reqister.py-->line:40] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:03:00,291 - [test_reqister.py-->line:40] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:03:00,357 - [test_reqister.py-->line:40] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:10:20,822 - [test_reqister.py-->line:38] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:10:20,822 - [test_reqister.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 35, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:10:20,891 - [test_reqister.py-->line:38] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:10:20,891 - [test_reqister.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 35, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:10:20,959 - [test_reqister.py-->line:42] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:10:21,020 - [test_reqister.py-->line:42] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:10:21,080 - [test_reqister.py-->line:42] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:10:21,146 - [test_reqister.py-->line:42] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:10:21,215 - [test_reqister.py-->line:42] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:10:54,611 - [test_reqister.py-->line:38] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:10:54,612 - [test_reqister.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 35, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:10:54,679 - [test_reqister.py-->line:38] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:10:54,679 - [test_reqister.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 35, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:10:54,747 - [test_reqister.py-->line:42] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:10:54,815 - [test_reqister.py-->line:42] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:10:54,880 - [test_reqister.py-->line:42] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:10:54,949 - [test_reqister.py-->line:42] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:10:55,020 - [test_reqister.py-->line:42] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:12:31,007 - [test_reqister.py-->line:38] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:12:31,007 - [test_reqister.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 35, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:12:31,078 - [test_reqister.py-->line:38] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:12:31,078 - [test_reqister.py-->line:39] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 35, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:12:31,146 - [test_reqister.py-->line:42] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:12:31,214 - [test_reqister.py-->line:42] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:12:31,281 - [test_reqister.py-->line:42] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:12:31,350 - [test_reqister.py-->line:42] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:12:31,416 - [test_reqister.py-->line:42] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:15:02,128 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:15:02,129 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:15:02,198 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:15:02,198 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:15:02,263 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:15:02,332 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:15:02,401 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:15:02,471 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:15:02,547 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:15:52,854 - [test_recharge.py-->line:51] - ERROR: 用例--【充值成功】---执行失败
+2022-09-02 14:15:52,855 - [test_recharge.py-->line:52] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:15:52,921 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:15:52,921 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:15:52,984 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:15:53,059 - [test_recharge.py-->line:51] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 14:15:53,060 - [test_recharge.py-->line:52] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-02 14:15:53,133 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-02 14:15:53,134 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 14:15:53,202 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-02 14:15:53,202 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 14:15:53,273 - [test_recharge.py-->line:55] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 14:20:18,214 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:20:18,214 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:20:18,278 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:20:18,278 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:20:18,342 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:20:18,500 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:20:18,900 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:20:19,046 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:20:19,113 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:31:36,258 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-02 14:31:36,335 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:31:36,336 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:31:36,407 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:31:36,483 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:31:36,550 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:31:36,617 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:31:36,684 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:32:29,390 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:32:29,390 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:32:29,461 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:32:29,461 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:32:29,527 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:32:29,602 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:32:29,669 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:32:29,740 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:32:29,809 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:33:50,600 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:33:50,601 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:33:50,727 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:33:50,727 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:33:50,798 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:33:50,862 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:33:50,942 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:33:51,008 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:33:51,078 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:35:13,446 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:35:13,447 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:35:13,522 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:35:13,522 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:35:13,590 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:35:13,656 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:35:13,724 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:35:13,787 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:35:13,854 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:38:05,280 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:38:05,280 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:38:05,365 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:38:05,365 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:38:05,432 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:38:05,501 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:38:05,564 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:38:05,636 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:38:05,717 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:47:46,979 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:47:47,053 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:47:47,122 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:47:47,190 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:47:47,263 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:49:11,104 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:49:11,171 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:49:11,236 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:49:11,305 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:49:11,369 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:50:26,403 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:50:26,403 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:50:26,467 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:52:21,603 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:52:21,603 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:52:21,668 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:52:43,375 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:52:43,440 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:52:43,515 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:52:43,578 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:52:43,648 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:54:39,493 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-02 14:54:39,570 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-02 14:54:39,639 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:54:39,705 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:54:39,771 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:54:39,836 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:54:39,907 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:55:20,269 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:55:20,269 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:55:20,399 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:55:51,552 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:55:51,552 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:55:51,617 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:56:39,612 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:56:39,612 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:56:39,683 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:59:16,531 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:59:16,532 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:59:16,600 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:59:37,009 - [test_recharge.py-->line:52] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:59:37,010 - [test_recharge.py-->line:53] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:59:37,081 - [test_recharge.py-->line:56] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 15:03:41,781 - [test_recharge.py-->line:52] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 15:03:41,782 - [test_recharge.py-->line:53] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 15:03:41,853 - [test_recharge.py-->line:56] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 15:08:17,398 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 15:08:17,399 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 15:08:17,484 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 15:09:20,726 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 15:09:20,727 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 15:09:20,792 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 15:09:59,804 - [test_recharge.py-->line:53] - ERROR: 用例--【充值成功】---执行失败
+2022-09-02 15:09:59,804 - [test_recharge.py-->line:54] - ERROR: 'ok' != 'OK'
+- ok
++ OK
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: 'ok' != 'OK'
+- ok
++ OK
+
+2022-09-02 15:09:59,879 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 15:09:59,880 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 15:09:59,945 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 15:10:00,027 - [test_recharge.py-->line:53] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 15:10:00,027 - [test_recharge.py-->line:54] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-02 15:10:00,104 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-02 15:10:00,173 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-02 15:10:00,243 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 15:58:45,098 - [test_withraw.py-->line:56] - INFO: 用例--【充值成功】---执行通过
+2022-09-02 15:58:45,170 - [test_withraw.py-->line:52] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 15:58:45,171 - [test_withraw.py-->line:53] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 15:58:45,249 - [test_withraw.py-->line:56] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 15:58:45,326 - [test_withraw.py-->line:52] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 15:58:45,326 - [test_withraw.py-->line:53] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-02 15:58:45,396 - [test_withraw.py-->line:56] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-02 15:58:45,466 - [test_withraw.py-->line:56] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-02 15:58:45,539 - [test_withraw.py-->line:56] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 16:00:45,319 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功】---执行通过
+2022-09-02 16:00:45,401 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-02 16:00:45,479 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-02 16:00:45,555 - [test_withraw.py-->line:52] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-02 16:00:45,555 - [test_withraw.py-->line:53] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-02 16:00:45,622 - [test_withraw.py-->line:56] - INFO: 用例--【会员id为空】---执行通过
+2022-09-02 16:00:45,689 - [test_withraw.py-->line:52] - ERROR: 用例--【会员id为小数】---执行失败
+2022-09-02 16:00:45,689 - [test_withraw.py-->line:53] - ERROR: '数值格式不正确' != '数值参数格式不正确'
+- 数值格式不正确
++ 数值参数格式不正确
+?   ++
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 50, in test_withraw
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '数值格式不正确' != '数值参数格式不正确'
+- 数值格式不正确
++ 数值参数格式不正确
+?   ++
+
+2022-09-02 16:00:45,758 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为空】---执行失败
+2022-09-02 16:00:45,758 - [test_withraw.py-->line:53] - ERROR: '金额为空' != '余额为空'
+- 金额为空
+? ^
++ 余额为空
+? ^
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 50, in test_withraw
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '金额为空' != '余额为空'
+- 金额为空
+? ^
++ 余额为空
+? ^
+
+2022-09-02 16:00:45,836 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为-6位小数】---执行失败
+2022-09-02 16:00:45,836 - [test_withraw.py-->line:53] - ERROR: 8 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 8 != 2
+2022-09-02 16:00:45,898 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为大于50万】---执行失败
+2022-09-02 16:00:45,898 - [test_withraw.py-->line:53] - ERROR: 9 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 9 != 2
+2022-09-02 16:00:45,972 - [test_withraw.py-->line:52] - ERROR: 用例--【 提现金额非数字】---执行失败
+2022-09-02 16:00:45,972 - [test_withraw.py-->line:53] - ERROR: 10 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10 != 2
+2022-09-02 16:04:49,653 - [test_recharge.py-->line:57] - INFO: 用例--【充值成功】---执行通过
+2022-09-02 16:04:49,728 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 16:04:49,729 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 16:04:49,812 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 16:04:49,885 - [test_recharge.py-->line:53] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 16:04:49,885 - [test_recharge.py-->line:54] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-02 16:04:49,960 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-02 16:04:50,023 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-02 16:04:50,106 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 16:05:55,414 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功】---执行通过
+2022-09-02 16:05:55,485 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-02 16:05:55,559 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-02 16:05:55,632 - [test_withraw.py-->line:52] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-02 16:05:55,632 - [test_withraw.py-->line:53] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-02 16:05:55,701 - [test_withraw.py-->line:56] - INFO: 用例--【会员id为空】---执行通过
+2022-09-02 16:05:55,772 - [test_withraw.py-->line:56] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-02 16:05:55,844 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为-6位小数】---执行失败
+2022-09-02 16:05:55,845 - [test_withraw.py-->line:53] - ERROR: '金额必须大于0并且小于等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^          ++
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 50, in test_withraw
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^          ++
+
+2022-09-02 16:05:55,910 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为大于50万】---执行失败
+2022-09-02 16:05:55,910 - [test_withraw.py-->line:53] - ERROR: 9 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 9 != 2
+2022-09-02 16:05:55,976 - [test_withraw.py-->line:52] - ERROR: 用例--【 提现金额非数字】---执行失败
+2022-09-02 16:05:55,976 - [test_withraw.py-->line:53] - ERROR: 'OK' != '数值参数格式不正确'
+- OK
++ 数值参数格式不正确
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 50, in test_withraw
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: 'OK' != '数值参数格式不正确'
+- OK
++ 数值参数格式不正确
+

@@ -1,0 +1,2247 @@
+2022-09-01 15:19:44,133 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 15:19:44,133 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:19:44,214 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 15:19:44,219 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:19:44,282 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 15:19:44,343 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 15:19:44,406 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 15:19:44,471 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 15:19:44,536 - [test_reqister.py-->line:33] - ERROR: 用例--【 已经注册的手机号】---执行失败
+2022-09-01 15:19:44,536 - [test_reqister.py-->line:34] - ERROR: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 31, in test_reqister
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+
+2022-09-01 15:21:30,865 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 15:21:30,866 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:21:30,934 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 15:21:30,934 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:21:31,001 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 15:21:31,061 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 15:21:31,123 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 15:21:31,182 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 15:21:31,255 - [test_reqister.py-->line:33] - ERROR: 用例--【 已经注册的手机号】---执行失败
+2022-09-01 15:21:31,256 - [test_reqister.py-->line:34] - ERROR: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 31, in test_reqister
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+
+2022-09-01 15:27:03,513 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 15:27:03,575 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 15:27:03,641 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 15:27:03,708 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 15:27:03,771 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 15:27:03,838 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 15:27:03,907 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 15:27:03,908 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:27:03,975 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 15:27:03,975 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:27:04,046 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 15:27:04,112 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 15:27:04,177 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 15:27:04,245 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 15:27:04,313 - [test_reqister.py-->line:33] - ERROR: 用例--【 已经注册的手机号】---执行失败
+2022-09-01 15:27:04,313 - [test_reqister.py-->line:34] - ERROR: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 31, in test_reqister
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+
+2022-09-01 15:42:57,419 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 15:42:57,483 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 15:42:57,550 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 15:42:57,617 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 15:42:57,684 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 15:42:57,748 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 15:42:57,811 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 15:42:57,811 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:42:57,881 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 15:42:57,881 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:42:57,938 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 15:42:58,003 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 15:42:58,064 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 15:42:58,132 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 15:42:58,194 - [test_reqister.py-->line:33] - ERROR: 用例--【 已经注册的手机号】---执行失败
+2022-09-01 15:42:58,194 - [test_reqister.py-->line:34] - ERROR: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 31, in test_reqister
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '账号已存在' != '不支持的用户类型'
+- 账号已存在
++ 不支持的用户类型
+
+2022-09-01 15:45:12,475 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 15:45:12,540 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 15:45:12,606 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 15:45:12,672 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 15:45:12,742 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 15:45:12,805 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 15:45:12,873 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 15:45:12,873 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:45:12,942 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 15:45:12,942 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 15:45:13,003 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 15:45:13,070 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 15:45:13,136 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 15:45:13,200 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 15:45:13,270 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-01 17:18:01,977 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 17:18:02,042 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 17:18:02,110 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 17:18:02,173 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 17:18:02,240 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 17:18:02,310 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 17:18:02,440 - [test_recharge.py-->line:48] - ERROR: 用例--【充值成功】---执行失败
+2022-09-01 17:18:02,440 - [test_recharge.py-->line:49] - ERROR: '0' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 2
+2022-09-01 17:18:02,506 - [test_recharge.py-->line:48] - ERROR: 用例--【 id错误】---执行失败
+2022-09-01 17:18:02,506 - [test_recharge.py-->line:49] - ERROR: '1' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 2
+2022-09-01 17:18:02,573 - [test_recharge.py-->line:48] - ERROR: 用例--【不输入id】---执行失败
+2022-09-01 17:18:02,573 - [test_recharge.py-->line:49] - ERROR: '2' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '2' != 1
+2022-09-01 17:18:02,637 - [test_recharge.py-->line:48] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-01 17:18:02,637 - [test_recharge.py-->line:49] - ERROR: '0' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 2
+2022-09-01 17:18:02,704 - [test_recharge.py-->line:48] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-01 17:18:02,704 - [test_recharge.py-->line:49] - ERROR: '0' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 2
+2022-09-01 17:18:02,772 - [test_recharge.py-->line:48] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-01 17:18:02,772 - [test_recharge.py-->line:49] - ERROR: '0' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 2
+2022-09-01 17:18:02,850 - [test_recharge.py-->line:48] - ERROR: 用例--【充值金额非数字】---执行失败
+2022-09-01 17:18:02,850 - [test_recharge.py-->line:49] - ERROR: '2' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '2' != 2
+2022-09-01 17:18:02,920 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 17:18:02,920 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:18:02,993 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 17:18:02,993 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:18:03,056 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 17:18:03,123 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 17:18:03,196 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 17:18:03,262 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 17:18:03,326 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-01 17:33:45,593 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 17:33:45,654 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 17:33:45,722 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 17:33:45,787 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 17:33:45,851 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 17:33:45,918 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 17:33:46,054 - [test_recharge.py-->line:48] - ERROR: 用例--【充值成功】---执行失败
+2022-09-01 17:33:46,054 - [test_recharge.py-->line:49] - ERROR: '0' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 2
+2022-09-01 17:33:46,122 - [test_recharge.py-->line:48] - ERROR: 用例--【 id错误】---执行失败
+2022-09-01 17:33:46,122 - [test_recharge.py-->line:49] - ERROR: '2' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '2' != 2
+2022-09-01 17:33:46,189 - [test_recharge.py-->line:48] - ERROR: 用例--【不输入id】---执行失败
+2022-09-01 17:33:46,190 - [test_recharge.py-->line:49] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-01 17:33:46,254 - [test_recharge.py-->line:48] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-01 17:33:46,254 - [test_recharge.py-->line:49] - ERROR: '2' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '2' != 2
+2022-09-01 17:33:46,318 - [test_recharge.py-->line:48] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-01 17:33:46,318 - [test_recharge.py-->line:49] - ERROR: '2' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '2' != 2
+2022-09-01 17:33:46,386 - [test_recharge.py-->line:48] - ERROR: 用例--【充值金额非数字】---执行失败
+2022-09-01 17:33:46,386 - [test_recharge.py-->line:49] - ERROR: '2' != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '2' != 2
+2022-09-01 17:33:46,451 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 17:33:46,451 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:33:46,521 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 17:33:46,521 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:33:46,583 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 17:33:46,653 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 17:33:46,720 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 17:33:46,786 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 17:33:46,853 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-01 17:37:01,663 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 17:37:01,726 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 17:37:01,792 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 17:37:01,853 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 17:37:01,921 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 17:37:01,989 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 17:37:02,121 - [test_recharge.py-->line:48] - ERROR: 用例--【充值成功】---执行失败
+2022-09-01 17:37:02,121 - [test_recharge.py-->line:49] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:37:02,188 - [test_recharge.py-->line:52] - INFO: 用例--【 id错误】---执行通过
+2022-09-01 17:37:02,255 - [test_recharge.py-->line:52] - INFO: 用例--【不输入id】---执行通过
+2022-09-01 17:37:02,322 - [test_recharge.py-->line:52] - INFO: 用例--【不输入金额】---执行通过
+2022-09-01 17:37:02,382 - [test_recharge.py-->line:52] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-01 17:37:02,459 - [test_recharge.py-->line:52] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-01 17:37:02,524 - [test_recharge.py-->line:52] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-01 17:37:02,590 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 17:37:02,590 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:37:02,659 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 17:37:02,660 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:37:02,722 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 17:37:02,786 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 17:37:02,853 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 17:37:02,922 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 17:37:02,985 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-01 17:47:07,052 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 17:47:07,119 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 17:47:07,184 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 17:47:07,254 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 17:47:07,327 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 17:47:07,389 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 17:47:07,526 - [test_recharge.py-->line:48] - ERROR: 用例--【充值成功】---执行失败
+2022-09-01 17:47:07,526 - [test_recharge.py-->line:49] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 45, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:47:07,591 - [test_recharge.py-->line:52] - INFO: 用例--【 id错误】---执行通过
+2022-09-01 17:47:07,655 - [test_recharge.py-->line:52] - INFO: 用例--【不输入id】---执行通过
+2022-09-01 17:47:07,720 - [test_recharge.py-->line:52] - INFO: 用例--【不输入金额】---执行通过
+2022-09-01 17:47:07,784 - [test_recharge.py-->line:52] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-01 17:47:07,847 - [test_recharge.py-->line:52] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-01 17:47:07,912 - [test_recharge.py-->line:52] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-01 17:47:07,981 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 17:47:07,981 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:47:08,051 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 17:47:08,051 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:47:08,114 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 17:47:08,175 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 17:47:08,237 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 17:47:08,310 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 17:47:08,380 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-01 17:57:07,398 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 17:57:07,468 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 17:57:07,528 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 17:57:07,596 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 17:57:07,666 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 17:57:07,732 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 17:57:07,865 - [test_recharge.py-->line:49] - ERROR: 用例--【充值成功】---执行失败
+2022-09-01 17:57:07,865 - [test_recharge.py-->line:50] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:57:07,926 - [test_recharge.py-->line:49] - ERROR: 用例--【 id错误】---执行失败
+2022-09-01 17:57:07,926 - [test_recharge.py-->line:50] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-01 17:57:07,992 - [test_recharge.py-->line:53] - INFO: 用例--【不输入id】---执行通过
+2022-09-01 17:57:08,060 - [test_recharge.py-->line:49] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-01 17:57:08,060 - [test_recharge.py-->line:50] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-01 17:57:08,130 - [test_recharge.py-->line:49] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-01 17:57:08,130 - [test_recharge.py-->line:50] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 47, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-01 17:57:08,196 - [test_recharge.py-->line:49] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-01 17:57:08,196 - [test_recharge.py-->line:50] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 47, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-01 17:57:08,268 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 17:57:08,268 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:57:08,344 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 17:57:08,344 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:57:08,411 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 17:57:08,475 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 17:57:08,549 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 17:57:08,609 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 17:57:08,676 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-01 17:58:52,380 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 17:58:52,450 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 17:58:52,514 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 17:58:52,580 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 17:58:52,647 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 17:58:52,714 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 17:58:52,853 - [test_recharge.py-->line:49] - ERROR: 用例--【充值成功】---执行失败
+2022-09-01 17:58:52,853 - [test_recharge.py-->line:50] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:58:52,930 - [test_recharge.py-->line:49] - ERROR: 用例--【 id错误】---执行失败
+2022-09-01 17:58:52,930 - [test_recharge.py-->line:50] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-01 17:58:52,995 - [test_recharge.py-->line:53] - INFO: 用例--【不输入id】---执行通过
+2022-09-01 17:58:53,061 - [test_recharge.py-->line:49] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-01 17:58:53,061 - [test_recharge.py-->line:50] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-01 17:58:53,121 - [test_recharge.py-->line:49] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-01 17:58:53,121 - [test_recharge.py-->line:50] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 47, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-01 17:58:53,185 - [test_recharge.py-->line:49] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-01 17:58:53,186 - [test_recharge.py-->line:50] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 47, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-01 17:58:53,252 - [test_recharge.py-->line:53] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-01 17:58:53,319 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 17:58:53,319 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:58:53,385 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 17:58:53,385 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 17:58:53,450 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 17:58:53,529 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 17:58:53,593 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 17:58:53,659 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 17:58:53,726 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-01 18:00:24,286 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-01 18:00:24,350 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-01 18:00:24,416 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-01 18:00:24,478 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-01 18:00:24,543 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-01 18:00:24,612 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-01 18:00:24,746 - [test_recharge.py-->line:49] - ERROR: 用例--【充值成功】---执行失败
+2022-09-01 18:00:24,746 - [test_recharge.py-->line:50] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 18:00:24,817 - [test_recharge.py-->line:49] - ERROR: 用例--【 id错误】---执行失败
+2022-09-01 18:00:24,817 - [test_recharge.py-->line:50] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-01 18:00:24,934 - [test_recharge.py-->line:53] - INFO: 用例--【不输入id】---执行通过
+2022-09-01 18:00:25,015 - [test_recharge.py-->line:49] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-01 18:00:25,015 - [test_recharge.py-->line:50] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 46, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-01 18:00:25,079 - [test_recharge.py-->line:49] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-01 18:00:25,079 - [test_recharge.py-->line:50] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 47, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-01 18:00:25,147 - [test_recharge.py-->line:49] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-01 18:00:25,147 - [test_recharge.py-->line:50] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 47, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-01 18:00:25,211 - [test_recharge.py-->line:53] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-01 18:00:25,281 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-01 18:00:25,281 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 18:00:25,358 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-01 18:00:25,358 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-01 18:00:25,439 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-01 18:00:25,507 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-01 18:00:25,580 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-01 18:00:25,647 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-01 18:00:25,725 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 10:06:01,535 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 10:06:01,599 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 10:06:01,665 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 10:06:01,738 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 10:06:01,807 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 10:06:01,872 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 10:06:02,032 - [test_recharge.py-->line:51] - ERROR: 用例--【充值成功】---执行失败
+2022-09-02 10:06:02,032 - [test_recharge.py-->line:52] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 10:06:02,103 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 10:06:02,104 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 10:06:02,171 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 10:06:02,236 - [test_recharge.py-->line:51] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 10:06:02,237 - [test_recharge.py-->line:52] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-02 10:06:02,304 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-02 10:06:02,304 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 10:06:02,369 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-02 10:06:02,369 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 10:06:02,435 - [test_recharge.py-->line:55] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 10:06:02,500 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 10:06:02,500 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 10:06:02,574 - [test_reqister.py-->line:33] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 10:06:02,574 - [test_reqister.py-->line:34] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 30, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 10:06:02,642 - [test_reqister.py-->line:37] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 10:06:02,711 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 10:06:02,777 - [test_reqister.py-->line:37] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 10:06:02,844 - [test_reqister.py-->line:37] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 10:06:02,911 - [test_reqister.py-->line:37] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:05:26,435 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 14:05:26,500 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 14:05:26,564 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 14:05:26,636 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 14:05:26,705 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 14:05:26,773 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 14:05:26,901 - [test_recharge.py-->line:51] - ERROR: 用例--【充值成功】---执行失败
+2022-09-02 14:05:26,901 - [test_recharge.py-->line:52] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:05:26,980 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:05:26,981 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:05:27,047 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:05:27,115 - [test_recharge.py-->line:51] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 14:05:27,115 - [test_recharge.py-->line:52] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-02 14:05:27,184 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-02 14:05:27,184 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 14:05:27,252 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-02 14:05:27,252 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 14:05:27,318 - [test_recharge.py-->line:55] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 14:05:27,391 - [test_reqister.py-->line:36] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:05:27,391 - [test_reqister.py-->line:37] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 33, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:05:27,456 - [test_reqister.py-->line:36] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:05:27,456 - [test_reqister.py-->line:37] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 33, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:05:27,525 - [test_reqister.py-->line:40] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:05:27,585 - [test_reqister.py-->line:40] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:05:27,650 - [test_reqister.py-->line:40] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:05:27,719 - [test_reqister.py-->line:40] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:05:27,781 - [test_reqister.py-->line:40] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:42:49,980 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 14:42:50,059 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 14:42:50,139 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 14:42:50,219 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 14:42:50,302 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 14:42:50,382 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 14:42:50,555 - [test_recharge.py-->line:51] - ERROR: 用例--【充值成功】---执行失败
+2022-09-02 14:42:50,556 - [test_recharge.py-->line:52] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:42:50,624 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:42:50,624 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:42:50,709 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:42:50,777 - [test_recharge.py-->line:51] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 14:42:50,778 - [test_recharge.py-->line:52] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2022-09-02 14:42:50,839 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-02 14:42:50,839 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 14:42:50,901 - [test_recharge.py-->line:51] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-02 14:42:50,901 - [test_recharge.py-->line:52] - ERROR: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 49, in test_recharge
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '数字格式化异常'
+- 余额必须大于0并且小于或者等于500000
++ 数字格式化异常
+
+2022-09-02 14:42:50,965 - [test_recharge.py-->line:55] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 14:42:51,030 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带用户名】---执行失败
+2022-09-02 14:42:51,030 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:42:51,095 - [test_reqister.py-->line:39] - ERROR: 用例--【注册成功-带不用户名】---执行失败
+2022-09-02 14:42:51,096 - [test_reqister.py-->line:40] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_reqister.py", line 36, in test_reqister
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-02 14:42:51,171 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:42:51,239 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:42:51,319 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:42:51,382 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:42:51,448 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:45:32,625 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 14:45:32,718 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 14:45:32,792 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 14:45:32,870 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 14:45:32,946 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 14:45:33,023 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 14:45:33,189 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:45:33,189 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:45:33,310 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:45:33,438 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:45:33,522 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:45:33,585 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:45:33,657 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:45:33,733 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 14:54:53,250 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 14:54:53,324 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 14:54:53,391 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 14:54:53,462 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 14:54:53,529 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 14:54:53,601 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 14:54:53,733 - [test_recharge.py-->line:51] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 14:54:53,733 - [test_recharge.py-->line:52] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 48, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 14:54:53,814 - [test_recharge.py-->line:55] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 14:54:53,907 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-02 14:54:53,993 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-02 14:54:54,101 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 14:54:54,198 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 14:54:54,310 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 14:54:54,399 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 14:54:54,489 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 15:10:43,588 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 15:10:43,764 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 15:10:43,932 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 15:10:44,010 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 15:10:44,173 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 15:10:44,242 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 15:10:44,387 - [test_recharge.py-->line:57] - INFO: 用例--【充值成功】---执行通过
+2022-09-02 15:10:44,449 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 15:10:44,449 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 15:10:44,522 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 15:10:44,591 - [test_recharge.py-->line:53] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 15:10:44,591 - [test_recharge.py-->line:54] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-02 15:10:44,654 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-02 15:10:44,720 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-02 15:10:44,785 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 15:10:44,864 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-02 15:10:44,939 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-02 15:10:45,002 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 15:10:45,067 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 15:10:45,128 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 15:10:45,197 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 15:10:45,266 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 16:06:40,661 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 16:06:40,726 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 16:06:40,797 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 16:06:40,865 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 16:06:40,933 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 16:06:41,016 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 16:06:41,166 - [test_recharge.py-->line:57] - INFO: 用例--【充值成功】---执行通过
+2022-09-02 16:06:41,259 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 16:06:41,259 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 16:06:41,335 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 16:06:41,423 - [test_recharge.py-->line:53] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 16:06:41,423 - [test_recharge.py-->line:54] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-02 16:06:41,506 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-02 16:06:41,579 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-02 16:06:41,645 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 16:06:41,723 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-02 16:06:41,795 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-02 16:06:41,867 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 16:06:41,938 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 16:06:42,006 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 16:06:42,089 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 16:06:42,161 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 16:06:42,325 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功】---执行通过
+2022-09-02 16:06:42,399 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-02 16:06:42,475 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-02 16:06:42,577 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-02 16:06:42,712 - [test_withraw.py-->line:56] - INFO: 用例--【会员id为空】---执行通过
+2022-09-02 16:06:42,783 - [test_withraw.py-->line:56] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-02 16:06:42,852 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为-6位小数】---执行失败
+2022-09-02 16:06:42,852 - [test_withraw.py-->line:53] - ERROR: '金额必须大于0并且小于等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^          ++
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 50, in test_withraw
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^          ++
+
+2022-09-02 16:06:42,935 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为大于50万】---执行失败
+2022-09-02 16:06:42,943 - [test_withraw.py-->line:53] - ERROR: 9 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 49, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 9 != 2
+2022-09-02 16:06:43,059 - [test_withraw.py-->line:52] - ERROR: 用例--【 提现金额非数字】---执行失败
+2022-09-02 16:06:43,060 - [test_withraw.py-->line:53] - ERROR: 'OK' != '数值参数格式不正确'
+- OK
++ 数值参数格式不正确
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 50, in test_withraw
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: 'OK' != '数值参数格式不正确'
+- OK
++ 数值参数格式不正确
+
+2022-09-02 16:09:03,785 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-02 16:09:03,852 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-02 16:09:03,919 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-02 16:09:03,993 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-02 16:09:04,068 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-02 16:09:04,133 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-02 16:09:04,279 - [test_recharge.py-->line:57] - INFO: 用例--【充值成功】---执行通过
+2022-09-02 16:09:04,350 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-02 16:09:04,350 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-02 16:09:04,413 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-02 16:09:04,494 - [test_recharge.py-->line:53] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-02 16:09:04,494 - [test_recharge.py-->line:54] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-02 16:09:04,561 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-02 16:09:04,634 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-02 16:09:04,702 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-02 16:09:04,775 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-02 16:09:04,850 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-02 16:09:04,917 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-02 16:09:04,985 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-02 16:09:05,053 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-02 16:09:05,129 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-02 16:09:05,200 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-02 16:09:05,343 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功】---执行通过
+2022-09-02 16:09:05,416 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-02 16:09:05,488 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-02 16:09:05,584 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-02 16:09:05,652 - [test_withraw.py-->line:56] - INFO: 用例--【会员id为空】---执行通过
+2022-09-02 16:09:05,716 - [test_withraw.py-->line:56] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-02 16:09:05,784 - [test_withraw.py-->line:52] - ERROR: 用例--【提现金额为-6位小数】---执行失败
+2022-09-02 16:09:05,784 - [test_withraw.py-->line:53] - ERROR: '金额必须大于0并且小于等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^          ++
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 50, in test_withraw
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^          ++
+
+2022-09-02 16:09:05,856 - [test_withraw.py-->line:56] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-02 16:09:05,921 - [test_withraw.py-->line:56] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 09:45:20,224 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 09:45:20,304 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 09:45:20,369 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 09:45:20,450 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 09:45:20,538 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 09:45:20,618 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 09:45:20,789 - [test_recharge.py-->line:57] - INFO: 用例--【充值成功】---执行通过
+2022-09-07 09:45:20,859 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 09:45:20,859 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-07 09:45:20,945 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-07 09:45:21,021 - [test_recharge.py-->line:53] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 09:45:21,021 - [test_recharge.py-->line:54] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 09:45:21,089 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-07 09:45:21,158 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-07 09:45:21,231 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-07 09:45:21,319 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 09:45:21,399 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 09:45:21,464 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 09:45:21,559 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 09:45:21,639 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 09:45:21,704 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 09:45:21,786 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 09:45:21,969 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 09:45:22,049 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 09:45:22,144 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 09:45:22,219 - [test_withraw.py-->line:56] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 09:45:22,278 - [test_withraw.py-->line:56] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 09:45:22,349 - [test_withraw.py-->line:56] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 09:45:22,426 - [test_withraw.py-->line:56] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 09:45:22,503 - [test_withraw.py-->line:56] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 09:45:22,589 - [test_withraw.py-->line:56] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 15:46:26,677 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 15:46:26,741 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 15:46:26,800 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 15:46:26,886 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 15:46:26,984 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 15:46:27,068 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 15:46:27,227 - [test_recharge.py-->line:57] - INFO: 用例--【充值成功】---执行通过
+2022-09-07 15:46:27,294 - [test_recharge.py-->line:53] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 15:46:27,294 - [test_recharge.py-->line:54] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-07 15:46:27,361 - [test_recharge.py-->line:57] - INFO: 用例--【不输入id】---执行通过
+2022-09-07 15:46:27,437 - [test_recharge.py-->line:53] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 15:46:27,438 - [test_recharge.py-->line:54] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 50, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 15:46:27,504 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-07 15:46:27,565 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-07 15:46:27,627 - [test_recharge.py-->line:57] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-07 15:46:27,719 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 15:46:27,820 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 15:46:27,886 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 15:46:27,955 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 15:46:28,030 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 15:46:28,104 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 15:46:28,193 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 15:50:28,674 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 15:50:28,740 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 15:50:28,812 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 15:50:28,896 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 15:50:28,981 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 15:50:29,078 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 15:50:29,252 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 15:50:29,347 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 15:50:29,418 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 15:50:29,482 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 15:50:29,549 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 15:50:29,614 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 15:50:29,696 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 15:50:29,860 - [test_withraw.py-->line:59] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 15:50:29,932 - [test_withraw.py-->line:59] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 15:50:30,020 - [test_withraw.py-->line:59] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 15:50:30,090 - [test_withraw.py-->line:59] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 15:50:30,152 - [test_withraw.py-->line:59] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 15:50:30,220 - [test_withraw.py-->line:59] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 15:50:30,295 - [test_withraw.py-->line:59] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 15:50:30,362 - [test_withraw.py-->line:59] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 15:50:30,434 - [test_withraw.py-->line:59] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 15:52:42,663 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 15:52:42,729 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 15:52:42,788 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 15:52:42,869 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 15:52:42,954 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 15:52:43,040 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 15:52:43,245 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 15:52:43,336 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 15:52:43,405 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 15:52:43,469 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 15:52:43,535 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 15:52:43,601 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 15:52:43,689 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 15:52:43,856 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 15:52:43,925 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 15:52:44,006 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 15:52:44,067 - [test_withraw.py-->line:58] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-07 15:52:44,067 - [test_withraw.py-->line:59] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 54, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-07 15:52:44,133 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 15:52:44,195 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 15:52:44,260 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 15:52:44,326 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 15:52:44,395 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 15:55:18,850 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 15:55:18,917 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 15:55:18,983 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 15:55:19,081 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 15:55:19,167 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 15:55:19,264 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 15:55:19,456 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 15:55:19,550 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 15:55:19,619 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 15:55:19,684 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 15:55:19,754 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 15:55:19,818 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 15:55:19,901 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 15:55:20,089 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 15:55:20,167 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 15:55:20,240 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 15:55:20,301 - [test_withraw.py-->line:58] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-07 15:55:20,301 - [test_withraw.py-->line:59] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 54, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-07 15:55:20,366 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 15:55:20,433 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 15:55:20,501 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 15:55:20,569 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 15:55:20,632 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 15:56:26,277 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 15:56:26,342 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 15:56:26,408 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 15:56:26,498 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 15:56:26,604 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 15:56:26,692 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 15:56:26,879 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 15:56:26,981 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 15:56:27,046 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 15:56:27,108 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 15:56:27,184 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 15:56:27,255 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 15:56:27,357 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 15:56:27,515 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 15:56:27,590 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 15:56:27,667 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 15:56:27,738 - [test_withraw.py-->line:58] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-07 15:56:27,738 - [test_withraw.py-->line:59] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 54, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-07 15:56:27,809 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 15:56:27,873 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 15:56:27,950 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 15:56:28,049 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 15:56:28,119 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 15:59:42,559 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 15:59:42,623 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 15:59:42,685 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 15:59:42,769 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 15:59:42,858 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 15:59:42,953 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 15:59:43,159 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 15:59:43,248 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 15:59:43,317 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 15:59:43,395 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 15:59:43,463 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 15:59:43,525 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 15:59:43,625 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 15:59:43,803 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 15:59:43,876 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 15:59:43,946 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 15:59:44,014 - [test_withraw.py-->line:58] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-07 15:59:44,014 - [test_withraw.py-->line:59] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 54, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-07 15:59:44,085 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 15:59:44,151 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 15:59:44,218 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 15:59:44,286 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 15:59:44,359 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:03:15,815 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:03:15,879 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:03:15,946 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:03:16,029 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:03:16,129 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:03:16,230 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:03:16,408 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:03:16,497 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:03:16,565 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:03:16,626 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:03:16,686 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:03:16,749 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:03:16,834 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:03:17,015 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:03:17,091 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:03:17,159 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:03:17,228 - [test_withraw.py-->line:58] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-07 16:03:17,228 - [test_withraw.py-->line:59] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 54, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-07 16:03:17,296 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:03:17,371 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:03:17,437 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:03:17,503 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:03:17,565 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:07:38,138 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:07:38,204 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:07:38,273 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:07:38,362 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:07:38,455 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:07:38,552 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:07:38,741 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:07:38,852 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:07:38,919 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:07:38,986 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:07:39,051 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:07:39,113 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:07:39,192 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:07:39,356 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:07:39,435 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:07:39,509 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:07:39,574 - [test_withraw.py-->line:58] - ERROR: 用例--【提现成功-50万】---执行失败
+2022-09-07 16:07:39,574 - [test_withraw.py-->line:59] - ERROR: 0 != 1002
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_withraw.py", line 54, in test_withraw
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2022-09-07 16:07:39,649 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:07:39,712 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:07:39,785 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:07:39,851 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:07:39,906 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:08:50,719 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:08:50,782 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:08:50,846 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:08:50,932 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:08:51,019 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:08:51,110 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:08:51,421 - [test_recharge.py-->line:72] - INFO: 用例--【充值成功】---执行通过
+2022-09-07 16:08:51,636 - [test_recharge.py-->line:68] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 16:08:51,636 - [test_recharge.py-->line:69] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2022-09-07 16:08:51,856 - [test_recharge.py-->line:72] - INFO: 用例--【不输入id】---执行通过
+2022-09-07 16:08:52,072 - [test_recharge.py-->line:68] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:08:52,072 - [test_recharge.py-->line:69] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:08:52,285 - [test_recharge.py-->line:72] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-07 16:08:52,501 - [test_recharge.py-->line:72] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-07 16:08:52,715 - [test_recharge.py-->line:72] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-07 16:08:52,811 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:08:52,912 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:08:52,983 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:08:53,048 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:08:53,112 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:08:53,179 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:08:53,277 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:08:53,434 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:08:53,508 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:08:53,594 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:08:53,670 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:08:53,731 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:08:53,796 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:08:53,861 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:08:53,923 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:08:53,989 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:16:34,042 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:16:34,108 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:16:34,172 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:16:34,265 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:16:34,356 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:16:34,442 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:16:35,431 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:16:35,431 - [test_recharge.py-->line:70] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:16:36,172 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:16:36,264 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:16:36,328 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:16:36,404 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:16:36,478 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:16:36,547 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:16:36,628 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:16:36,789 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:16:36,868 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:16:36,943 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:16:37,017 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:16:37,077 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:16:37,145 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:16:37,217 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:16:37,298 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:16:37,366 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:17:51,309 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:17:51,370 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:17:51,432 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:17:51,522 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:17:51,605 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:17:51,697 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:17:52,017 - [test_recharge.py-->line:69] - ERROR: 用例--【充值成功】---执行失败
+2022-09-07 16:17:52,017 - [test_recharge.py-->line:70] - ERROR: Decimal('-500000.00') != '500000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(before_amount-afterwards_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('-500000.00') != '500000'
+2022-09-07 16:17:52,230 - [test_recharge.py-->line:69] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 16:17:52,231 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(before_amount-afterwards_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '1'
+2022-09-07 16:17:52,445 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入id】---执行失败
+2022-09-07 16:17:52,446 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(before_amount-afterwards_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '1'
+2022-09-07 16:17:52,666 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:17:52,667 - [test_recharge.py-->line:70] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:17:52,877 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-07 16:17:52,877 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '-5'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(before_amount-afterwards_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '-5'
+2022-09-07 16:17:53,098 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-07 16:17:53,099 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '9000000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(before_amount-afterwards_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '9000000'
+2022-09-07 16:17:53,322 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额非数字】---执行失败
+2022-09-07 16:17:53,323 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '也一样'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(before_amount-afterwards_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '也一样'
+2022-09-07 16:17:53,426 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:17:53,515 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:17:53,591 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:17:53,656 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:17:53,722 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:17:53,785 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:17:53,867 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:17:54,029 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:17:54,114 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:17:54,195 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:17:54,271 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:17:54,336 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:17:54,410 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:17:54,491 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:17:54,554 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:17:54,623 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:19:29,066 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:19:29,124 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:19:29,193 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:19:29,277 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:19:29,357 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:19:29,455 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:19:29,775 - [test_recharge.py-->line:69] - ERROR: 用例--【充值成功】---执行失败
+2022-09-07 16:19:29,775 - [test_recharge.py-->line:70] - ERROR: Decimal('500000.00') != '500000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(afterwards_amount-before_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('500000.00') != '500000'
+2022-09-07 16:19:30,010 - [test_recharge.py-->line:69] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 16:19:30,010 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(afterwards_amount-before_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '1'
+2022-09-07 16:19:30,234 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入id】---执行失败
+2022-09-07 16:19:30,234 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(afterwards_amount-before_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '1'
+2022-09-07 16:19:30,470 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:19:30,470 - [test_recharge.py-->line:70] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:19:30,704 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-07 16:19:30,704 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '-5'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(afterwards_amount-before_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '-5'
+2022-09-07 16:19:30,946 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-07 16:19:30,946 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '9000000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(afterwards_amount-before_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '9000000'
+2022-09-07 16:19:31,179 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额非数字】---执行失败
+2022-09-07 16:19:31,179 - [test_recharge.py-->line:70] - ERROR: Decimal('0.00') != '也一样'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(afterwards_amount-before_amount,params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('0.00') != '也一样'
+2022-09-07 16:19:31,267 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:19:31,352 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:19:31,420 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:19:31,482 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:19:31,553 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:19:31,619 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:19:31,718 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:19:31,890 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:19:31,962 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:19:32,038 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:19:32,116 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:19:32,178 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:19:32,245 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:19:32,307 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:19:32,368 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:19:32,436 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:20:39,257 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:20:39,319 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:20:39,386 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:20:39,473 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:20:39,557 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:20:39,647 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:20:39,953 - [test_recharge.py-->line:69] - ERROR: 用例--【充值成功】---执行失败
+2022-09-07 16:20:39,954 - [test_recharge.py-->line:70] - ERROR: 500000.0 != '500000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(float(afterwards_amount)-float(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500000.0 != '500000'
+2022-09-07 16:20:40,178 - [test_recharge.py-->line:69] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 16:20:40,178 - [test_recharge.py-->line:70] - ERROR: 0.0 != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(float(afterwards_amount)-float(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != '1'
+2022-09-07 16:20:40,385 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入id】---执行失败
+2022-09-07 16:20:40,385 - [test_recharge.py-->line:70] - ERROR: 0.0 != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(float(afterwards_amount)-float(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != '1'
+2022-09-07 16:20:40,613 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:20:40,613 - [test_recharge.py-->line:70] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:20:40,827 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-07 16:20:40,827 - [test_recharge.py-->line:70] - ERROR: 0.0 != '-5'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(float(afterwards_amount)-float(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != '-5'
+2022-09-07 16:20:41,034 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-07 16:20:41,034 - [test_recharge.py-->line:70] - ERROR: 0.0 != '9000000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(float(afterwards_amount)-float(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != '9000000'
+2022-09-07 16:20:41,257 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额非数字】---执行失败
+2022-09-07 16:20:41,257 - [test_recharge.py-->line:70] - ERROR: 0.0 != '也一样'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(float(afterwards_amount)-float(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != '也一样'
+2022-09-07 16:20:41,356 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:20:41,441 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:20:41,508 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:20:41,578 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:20:41,641 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:20:41,707 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:20:41,789 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:20:41,949 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:20:42,021 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:20:42,104 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:20:42,179 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:20:42,249 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:20:42,317 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:20:42,383 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:20:42,444 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:20:42,505 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:21:32,065 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:21:32,132 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:21:32,197 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:21:32,284 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:21:32,390 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:21:32,486 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:21:32,794 - [test_recharge.py-->line:69] - ERROR: 用例--【充值成功】---执行失败
+2022-09-07 16:21:32,794 - [test_recharge.py-->line:70] - ERROR: 500000 != '500000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500000 != '500000'
+2022-09-07 16:21:33,008 - [test_recharge.py-->line:69] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 16:21:33,008 - [test_recharge.py-->line:70] - ERROR: 0 != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '1'
+2022-09-07 16:21:33,224 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入id】---执行失败
+2022-09-07 16:21:33,224 - [test_recharge.py-->line:70] - ERROR: 0 != '1'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '1'
+2022-09-07 16:21:33,448 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:21:33,448 - [test_recharge.py-->line:70] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:21:33,659 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-07 16:21:33,659 - [test_recharge.py-->line:70] - ERROR: 0 != '-5'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '-5'
+2022-09-07 16:21:33,864 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-07 16:21:33,864 - [test_recharge.py-->line:70] - ERROR: 0 != '9000000'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '9000000'
+2022-09-07 16:21:34,079 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额非数字】---执行失败
+2022-09-07 16:21:34,079 - [test_recharge.py-->line:70] - ERROR: 0 != '也一样'
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),params['amount'])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '也一样'
+2022-09-07 16:21:34,169 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:21:34,263 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:21:34,335 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:21:34,402 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:21:34,469 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:21:49,572 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:21:49,669 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:21:49,832 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:21:49,904 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:21:49,971 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:21:50,049 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:21:50,115 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:21:50,181 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:21:50,245 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:21:50,304 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:21:50,379 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:22:19,478 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:22:19,542 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:22:19,604 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:22:19,690 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:22:19,774 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:22:19,856 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:22:20,156 - [test_recharge.py-->line:73] - INFO: 用例--【充值成功】---执行通过
+2022-09-07 16:22:20,361 - [test_recharge.py-->line:69] - ERROR: 用例--【 id错误】---执行失败
+2022-09-07 16:22:20,361 - [test_recharge.py-->line:70] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),int(params['amount']))
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2022-09-07 16:22:20,575 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入id】---执行失败
+2022-09-07 16:22:20,575 - [test_recharge.py-->line:70] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),int(params['amount']))
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2022-09-07 16:22:20,803 - [test_recharge.py-->line:69] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:22:20,804 - [test_recharge.py-->line:70] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 65, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:22:21,013 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为负数】---执行失败
+2022-09-07 16:22:21,013 - [test_recharge.py-->line:70] - ERROR: 0 != -5
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),int(params['amount']))
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != -5
+2022-09-07 16:22:21,214 - [test_recharge.py-->line:69] - ERROR: 用例--【充值金额为9000000】---执行失败
+2022-09-07 16:22:21,214 - [test_recharge.py-->line:70] - ERROR: 0 != 9000000
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 67, in test_recharge
+    self.assertEqual(int(afterwards_amount)-int(before_amount),int(params['amount']))
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 9000000
+2022-09-07 16:22:21,504 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:22:21,596 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:22:21,657 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:22:21,725 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:22:21,796 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:22:21,874 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:22:21,971 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:22:22,133 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:22:22,206 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:22:22,280 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:22:22,360 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:22:22,428 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:22:22,498 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:22:22,564 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:22:22,631 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:22:22,695 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:24:44,506 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:24:44,569 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:24:44,635 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:24:44,734 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:24:44,824 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:24:44,914 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:24:45,873 - [test_recharge.py-->line:71] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:24:45,873 - [test_recharge.py-->line:72] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 64, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:24:46,593 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:24:46,695 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:24:46,766 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:24:46,829 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:24:46,892 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:24:46,961 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:24:47,045 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:24:47,198 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:24:47,272 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:24:47,344 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:24:47,415 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:24:47,477 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:24:47,554 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:24:47,621 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:24:47,683 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:24:47,743 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:26:01,028 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:26:01,090 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:26:01,154 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:26:01,247 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:26:01,339 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:26:01,438 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:26:01,800 - [test_recharge.py-->line:71] - ERROR: 用例--【充值成功】---执行失败
+2022-09-07 16:26:01,800 - [test_recharge.py-->line:72] - ERROR: 500000 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(int(afterwards_amount)- int(before_amount),0)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500000 != 0
+2022-09-07 16:26:02,058 - [test_recharge.py-->line:75] - INFO: 用例--【 id错误】---执行通过
+2022-09-07 16:26:02,310 - [test_recharge.py-->line:75] - INFO: 用例--【不输入id】---执行通过
+2022-09-07 16:26:02,563 - [test_recharge.py-->line:71] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:26:02,563 - [test_recharge.py-->line:72] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 64, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:26:02,833 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-07 16:26:03,070 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-07 16:26:03,338 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-07 16:26:03,441 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:26:03,525 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:26:03,592 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:26:03,669 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:26:03,742 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:26:03,823 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:26:03,912 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:26:04,086 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:26:04,209 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:26:04,314 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:26:04,383 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:26:04,448 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:26:04,514 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:26:04,587 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:26:04,659 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:26:04,734 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-07 16:26:41,361 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-07 16:26:41,425 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-07 16:26:41,488 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-07 16:26:41,580 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-07 16:26:41,662 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-07 16:26:41,750 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-07 16:26:42,064 - [test_recharge.py-->line:75] - INFO: 用例--【充值成功】---执行通过
+2022-09-07 16:26:42,273 - [test_recharge.py-->line:75] - INFO: 用例--【 id错误】---执行通过
+2022-09-07 16:26:42,487 - [test_recharge.py-->line:75] - INFO: 用例--【不输入id】---执行通过
+2022-09-07 16:26:42,716 - [test_recharge.py-->line:71] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-07 16:26:42,716 - [test_recharge.py-->line:72] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 64, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-07 16:26:42,923 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-07 16:26:43,136 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-07 16:26:43,352 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-07 16:26:43,437 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-07 16:26:43,534 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-07 16:26:43,598 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-07 16:26:43,659 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-07 16:26:43,727 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-07 16:26:43,792 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-07 16:26:43,887 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-07 16:26:44,041 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-07 16:26:44,123 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-07 16:26:44,202 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-07 16:26:44,276 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-07 16:26:44,335 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-07 16:26:44,399 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-07 16:26:44,473 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-07 16:26:44,547 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-07 16:26:44,612 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
