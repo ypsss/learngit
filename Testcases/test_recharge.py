@@ -8,6 +8,7 @@ from common.heandler_path import DATA_DTR
 from common.headler_conf import conf
 from common.headler_log import my_log
 from common.heander_mysql import HandMsql
+from common.heandler_tools import replace_data
 
 
 @ddt
@@ -36,11 +37,9 @@ class Test_recharge(unittest.TestCase):
     @list_data(cases)
     def test_recharge(self, item):
         url = conf.get("env", "test_url") + item["url"]
-        # 替换参数
-        item["data"] = item['data'].replace("#member_id#", str(self.member_id))
-        print(item['data'])
+        """替换数据 """
+        item["data"] = replace_data(item["data"], Test_recharge)
         params = eval(item["data"])
-        print(params)
         expected = eval(item["expected"])
         method = item['method'].lower()
 
@@ -66,7 +65,7 @@ class Test_recharge(unittest.TestCase):
             if res['msg'] == 'OK':
                 self.assertEqual(int(afterwards_amount) - int(before_amount), int(params['amount']))
             else:
-                self.assertEqual(int(afterwards_amount)- int(before_amount),0)
+                self.assertEqual(int(afterwards_amount) - int(before_amount), 0)
         except AssertionError as e:
             my_log.error("用例--【{}】---执行失败".format(item["title"]))
             my_log.exception(e)

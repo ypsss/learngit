@@ -8,6 +8,7 @@ from common.heandler_path import DATA_DTR
 from common.headler_conf import conf
 from common.headler_log import my_log
 from common.heander_mysql import HandMsql
+from common.heandler_tools import replace_data
 
 
 @ddt
@@ -36,14 +37,14 @@ class TestWithraw(unittest.TestCase):
     @list_data(cases)
     def test_withraw(self, item):
         url = conf.get("env", "test_url") + item["url"]
-        # 替换参数
-        item["data"] = item['data'].replace("#member_id#", str(self.member_id))
+        """数据替换"""
+        item["data"] = replace_data(item["data"],TestWithraw)
         params = eval(item["data"])
         expected = eval(item["expected"])
         method = item['method'].lower()
 
 
-
+        """接口请求"""
         response = requests.request(method=method, url=url, json=params, headers=self.header)
         print(response.json())
         res = response.json()
