@@ -1,7 +1,7 @@
 import logging
 import os
 from common.headler_conf import conf
-from common.heandler_path import BASR_DIR
+from common.heandler_path import LOG_DIR
 
 
 def create_log(name="zld.log", level="Debug", filename="zld.log", fh_level="DEBUG", sh_level="DEBUG"):
@@ -36,7 +36,7 @@ my_log = create_log(
     level=conf.get("logging", "level"),
     fh_level=conf.get("logging", "fh_level"),
     sh_level=conf.get("logging", "sh_level"),
-    filename=conf.get("logging", "filename"),
+    filename=os.path.join(LOG_DIR,conf.get("logging", "filename")),
 )
 
 if __name__ == '__main__':

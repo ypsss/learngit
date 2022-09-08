@@ -1,0 +1,38 @@
+2022-09-08 10:54:38,299 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-08 10:54:38,365 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-08 10:54:38,437 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-08 10:54:38,522 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-08 10:54:38,612 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-08 10:54:38,700 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-08 10:54:39,059 - [test_recharge.py-->line:75] - INFO: 用例--【充值成功】---执行通过
+2022-09-08 10:54:39,379 - [test_recharge.py-->line:75] - INFO: 用例--【 id错误】---执行通过
+2022-09-08 10:54:39,606 - [test_recharge.py-->line:75] - INFO: 用例--【不输入id】---执行通过
+2022-09-08 10:54:39,860 - [test_recharge.py-->line:71] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-08 10:54:39,860 - [test_recharge.py-->line:72] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 64, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-08 10:54:40,143 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-08 10:54:40,433 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-08 10:54:40,707 - [test_recharge.py-->line:75] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-08 10:54:40,833 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-08 10:54:40,940 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-08 10:54:41,021 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-08 10:54:41,104 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-08 10:54:41,190 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-08 10:54:41,271 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-08 10:54:41,372 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-08 10:54:41,599 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功】---执行通过
+2022-09-08 10:54:41,695 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-08 10:54:41,791 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-08 10:54:41,889 - [test_withraw.py-->line:62] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-08 10:54:41,957 - [test_withraw.py-->line:62] - INFO: 用例--【会员id为空】---执行通过
+2022-09-08 10:54:42,030 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-08 10:54:42,096 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-08 10:54:42,165 - [test_withraw.py-->line:62] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-08 10:54:42,226 - [test_withraw.py-->line:62] - INFO: 用例--【 提现金额非数字】---执行通过
