@@ -7,7 +7,7 @@ from common.heandler_path import DATA_DTR
 from common.headler_conf import conf
 from common.headler_log import my_log
 from common.heandler_tools import random_phone
-from common.v import replace_data
+from common.heandler_tools import replace_data
 
 @ddt
 class TestReqister(unittest.TestCase):

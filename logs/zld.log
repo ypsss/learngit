@@ -199,3 +199,392 @@ AssertionError: 1 != 0
 2022-09-08 16:41:04,626 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
 2022-09-08 16:41:04,688 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
 2022-09-08 16:41:04,788 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-09 11:33:25,347 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-09 11:33:25,413 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-09 11:33:25,475 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-09 11:33:25,572 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-09 11:33:25,657 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-09 11:33:25,746 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-09 11:35:20,099 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-09 11:35:20,162 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-09 11:35:20,228 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-09 11:35:20,332 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-09 11:35:20,411 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-09 11:35:20,508 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-09 11:35:20,803 - [test_recharge.py-->line:74] - INFO: 用例--【充值成功】---执行通过
+2022-09-09 11:35:21,025 - [test_recharge.py-->line:74] - INFO: 用例--【 id错误】---执行通过
+2022-09-09 11:35:21,236 - [test_recharge.py-->line:74] - INFO: 用例--【不输入id】---执行通过
+2022-09-09 11:35:21,464 - [test_recharge.py-->line:70] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-09 11:35:21,464 - [test_recharge.py-->line:71] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 63, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-09 11:35:21,684 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-09 11:35:21,901 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-09 11:35:22,111 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-09 11:35:22,289 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功】---执行通过
+2022-09-09 11:35:22,367 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-09 11:35:22,441 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-09 11:35:22,518 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-09 11:35:22,581 - [test_withraw.py-->line:63] - INFO: 用例--【会员id为空】---执行通过
+2022-09-09 11:35:22,661 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-09 11:35:22,732 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-09 11:35:22,802 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-09 11:35:22,875 - [test_withraw.py-->line:63] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-09 13:42:34,743 - [test_add.py-->line:58] - ERROR: 用例--【加标成功】---执行失败
+2022-09-09 13:42:34,745 - [test_add.py-->line:59] - ERROR: '0' != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 0
+2022-09-09 13:42:34,816 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-借款人为空】---执行失败
+2022-09-09 13:42:34,817 - [test_add.py-->line:59] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-09 13:42:34,884 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-借款人id为空】---执行失败
+2022-09-09 13:42:34,884 - [test_add.py-->line:59] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-09 13:42:34,944 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-标题为空】---执行失败
+2022-09-09 13:42:34,944 - [test_add.py-->line:59] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-09 13:42:35,008 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-借款金额为空】---执行失败
+2022-09-09 13:42:35,009 - [test_add.py-->line:59] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-09 13:42:35,076 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-年利率为空】---执行失败
+2022-09-09 13:42:35,076 - [test_add.py-->line:59] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-09 13:42:35,148 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-借款期限为空】---执行失败
+2022-09-09 13:42:35,149 - [test_add.py-->line:59] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-09 13:42:35,221 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-借款期限类型为空】---执行失败
+2022-09-09 13:42:35,221 - [test_add.py-->line:59] - ERROR: '1' != 1
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 54, in test_add
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1' != 1
+2022-09-09 13:47:19,564 - [test_add.py-->line:62] - INFO: 用例--【加标成功】---执行通过
+2022-09-09 13:47:19,729 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款人为空】---执行通过
+2022-09-09 13:47:19,798 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款人id为空】---执行通过
+2022-09-09 13:47:19,967 - [test_add.py-->line:62] - INFO: 用例--【加标失败-标题为空】---执行通过
+2022-09-09 13:47:20,138 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款金额为空】---执行通过
+2022-09-09 13:47:20,201 - [test_add.py-->line:62] - INFO: 用例--【加标失败-年利率为空】---执行通过
+2022-09-09 13:47:20,377 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-借款期限为空】---执行失败
+2022-09-09 13:47:20,377 - [test_add.py-->line:59] - ERROR: '无权限访问，请检查参数' != '借款日期类型为空'
+- 无权限访问，请检查参数
++ 借款日期类型为空
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 55, in test_add
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '无权限访问，请检查参数' != '借款日期类型为空'
+- 无权限访问，请检查参数
++ 借款日期类型为空
+
+2022-09-09 13:47:20,549 - [test_add.py-->line:58] - ERROR: 用例--【加标失败-借款期限类型为空】---执行失败
+2022-09-09 13:47:20,549 - [test_add.py-->line:59] - ERROR: '借款日期类型为空' != '竞标期限为空'
+- 借款日期类型为空
++ 竞标期限为空
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_add.py", line 55, in test_add
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '借款日期类型为空' != '竞标期限为空'
+- 借款日期类型为空
++ 竞标期限为空
+
+2022-09-09 13:48:09,425 - [test_add.py-->line:62] - INFO: 用例--【加标成功】---执行通过
+2022-09-09 13:48:09,485 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款人为空】---执行通过
+2022-09-09 13:48:09,553 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款人id为空】---执行通过
+2022-09-09 13:48:09,637 - [test_add.py-->line:62] - INFO: 用例--【加标失败-标题为空】---执行通过
+2022-09-09 13:48:09,696 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款金额为空】---执行通过
+2022-09-09 13:48:09,754 - [test_add.py-->line:62] - INFO: 用例--【加标失败-年利率为空】---执行通过
+2022-09-09 13:48:09,820 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款期限为空】---执行通过
+2022-09-09 13:48:09,886 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款期限类型为空】---执行通过
+2022-09-09 13:53:30,714 - [test_add.py-->line:62] - INFO: 用例--【加标成功】---执行通过
+2022-09-09 13:53:30,775 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款人为空】---执行通过
+2022-09-09 13:53:30,841 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款人id为空】---执行通过
+2022-09-09 13:53:30,904 - [test_add.py-->line:62] - INFO: 用例--【加标失败-标题为空】---执行通过
+2022-09-09 13:53:30,975 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款金额为空】---执行通过
+2022-09-09 13:53:31,050 - [test_add.py-->line:62] - INFO: 用例--【加标失败-年利率为空】---执行通过
+2022-09-09 13:53:31,115 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款期限为空】---执行通过
+2022-09-09 13:53:31,183 - [test_add.py-->line:62] - INFO: 用例--【加标失败-借款期限类型为空】---执行通过
+2022-09-09 13:53:31,279 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-09 13:53:31,356 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-09 13:53:31,421 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-09 13:53:31,511 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-09 13:53:31,601 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-09 13:53:31,695 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-09 13:53:31,999 - [test_recharge.py-->line:74] - INFO: 用例--【充值成功】---执行通过
+2022-09-09 13:53:32,232 - [test_recharge.py-->line:74] - INFO: 用例--【 id错误】---执行通过
+2022-09-09 13:53:32,449 - [test_recharge.py-->line:74] - INFO: 用例--【不输入id】---执行通过
+2022-09-09 13:53:32,678 - [test_recharge.py-->line:70] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-09 13:53:32,678 - [test_recharge.py-->line:71] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 63, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-09 13:53:32,902 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-09 13:53:33,117 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-09 13:53:33,340 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-09 13:53:33,443 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-09 13:53:33,536 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-09 13:53:33,601 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-09 13:53:33,667 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-09 13:53:33,736 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-09 13:53:33,793 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-09 13:53:33,889 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-09 13:53:34,078 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功】---执行通过
+2022-09-09 13:53:34,147 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-09 13:53:34,228 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-09 13:53:34,303 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-09 13:53:34,363 - [test_withraw.py-->line:63] - INFO: 用例--【会员id为空】---执行通过
+2022-09-09 13:53:34,443 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-09 13:53:34,503 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-09 13:53:34,564 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-09 13:53:34,630 - [test_withraw.py-->line:63] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-09 15:29:18,850 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-09 15:29:18,922 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-09 15:29:18,986 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-09 15:29:19,069 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-09 15:29:19,174 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-09 15:29:19,268 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-09 15:29:19,566 - [test_recharge.py-->line:74] - INFO: 用例--【充值成功】---执行通过
+2022-09-09 15:29:19,776 - [test_recharge.py-->line:74] - INFO: 用例--【 id错误】---执行通过
+2022-09-09 15:29:19,985 - [test_recharge.py-->line:74] - INFO: 用例--【不输入id】---执行通过
+2022-09-09 15:29:20,226 - [test_recharge.py-->line:70] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-09 15:29:20,226 - [test_recharge.py-->line:71] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 63, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-09 15:29:20,443 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-09 15:29:20,673 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-09 15:29:20,893 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-09 15:29:20,983 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-09 15:29:21,077 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-09 15:29:21,141 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-09 15:29:21,205 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-09 15:29:21,271 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-09 15:29:21,341 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-09 15:29:21,427 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-09 15:29:21,598 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功】---执行通过
+2022-09-09 15:29:21,679 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-09 15:29:21,762 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-09 15:29:21,835 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-09 15:29:21,904 - [test_withraw.py-->line:63] - INFO: 用例--【会员id为空】---执行通过
+2022-09-09 15:29:21,979 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-09 15:29:22,045 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-09 15:29:22,122 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-09 15:29:22,194 - [test_withraw.py-->line:63] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-09 15:40:02,510 - [test_add.py-->line:72] - INFO: 用例--【加标成功】---执行通过
+2022-09-09 15:40:02,691 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款人为空】---执行通过
+2022-09-09 15:40:02,879 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款人id为空】---执行通过
+2022-09-09 15:40:03,075 - [test_add.py-->line:72] - INFO: 用例--【加标失败-标题为空】---执行通过
+2022-09-09 15:40:03,262 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款金额为空】---执行通过
+2022-09-09 15:40:03,445 - [test_add.py-->line:72] - INFO: 用例--【加标失败-年利率为空】---执行通过
+2022-09-09 15:40:03,635 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款期限为空】---执行通过
+2022-09-09 15:40:03,820 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款期限类型为空】---执行通过
+2022-09-09 15:49:18,097 - [test_add.py-->line:72] - INFO: 用例--【加标成功】---执行通过
+2022-09-09 15:49:18,297 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款人为空】---执行通过
+2022-09-09 15:49:18,493 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款人id为空】---执行通过
+2022-09-09 15:49:18,689 - [test_add.py-->line:72] - INFO: 用例--【加标失败-标题为空】---执行通过
+2022-09-09 15:49:18,874 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款金额为空】---执行通过
+2022-09-09 15:49:19,080 - [test_add.py-->line:72] - INFO: 用例--【加标失败-年利率为空】---执行通过
+2022-09-09 15:49:19,271 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款期限为空】---执行通过
+2022-09-09 15:49:19,471 - [test_add.py-->line:72] - INFO: 用例--【加标失败-借款期限类型为空】---执行通过
+2022-09-09 15:49:20,203 - [test_login.py-->line:37] - INFO: 用例--【登录成功】---执行通过
+2022-09-09 15:49:20,267 - [test_login.py-->line:37] - INFO: 用例--【账号为空】---执行通过
+2022-09-09 15:49:20,331 - [test_login.py-->line:37] - INFO: 用例--【密码为空 】---执行通过
+2022-09-09 15:49:20,419 - [test_login.py-->line:37] - INFO: 用例--【密码错误】---执行通过
+2022-09-09 15:49:20,509 - [test_login.py-->line:37] - INFO: 用例--【密码错误2】---执行通过
+2022-09-09 15:49:20,598 - [test_login.py-->line:37] - INFO: 用例--【密码错误3】---执行通过
+2022-09-09 15:49:20,908 - [test_recharge.py-->line:74] - INFO: 用例--【充值成功】---执行通过
+2022-09-09 15:49:21,145 - [test_recharge.py-->line:74] - INFO: 用例--【 id错误】---执行通过
+2022-09-09 15:49:21,393 - [test_recharge.py-->line:74] - INFO: 用例--【不输入id】---执行通过
+2022-09-09 15:49:21,625 - [test_recharge.py-->line:70] - ERROR: 用例--【不输入金额】---执行失败
+2022-09-09 15:49:21,625 - [test_recharge.py-->line:71] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_recharge.py", line 63, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2022-09-09 15:49:21,867 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为负数】---执行通过
+2022-09-09 15:49:22,097 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额为9000000】---执行通过
+2022-09-09 15:49:22,316 - [test_recharge.py-->line:74] - INFO: 用例--【充值金额非数字】---执行通过
+2022-09-09 15:49:22,415 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带用户名】---执行通过
+2022-09-09 15:49:22,508 - [test_reqister.py-->line:43] - INFO: 用例--【注册成功-带不用户名】---执行通过
+2022-09-09 15:49:22,572 - [test_reqister.py-->line:43] - INFO: 用例--【不输入手机号】---执行通过
+2022-09-09 15:49:22,642 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度10位】---执行通过
+2022-09-09 15:49:22,706 - [test_reqister.py-->line:43] - INFO: 用例--【 手机号长度12位】---执行通过
+2022-09-09 15:49:22,772 - [test_reqister.py-->line:43] - INFO: 用例--【手机号含非法字符】---执行通过
+2022-09-09 15:49:22,855 - [test_reqister.py-->line:43] - INFO: 用例--【 已经注册的手机号】---执行通过
+2022-09-09 15:49:23,030 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功】---执行通过
+2022-09-09 15:49:23,105 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-1位小数】---执行通过
+2022-09-09 15:49:23,183 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-2位小数】---执行通过
+2022-09-09 15:49:23,265 - [test_withraw.py-->line:63] - INFO: 用例--【提现成功-50万】---执行通过
+2022-09-09 15:49:23,330 - [test_withraw.py-->line:63] - INFO: 用例--【会员id为空】---执行通过
+2022-09-09 15:49:23,404 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为空】---执行通过
+2022-09-09 15:49:23,471 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为-6位小数】---执行通过
+2022-09-09 15:49:23,542 - [test_withraw.py-->line:63] - INFO: 用例--【提现金额为大于50万】---执行通过
+2022-09-09 15:49:23,607 - [test_withraw.py-->line:63] - INFO: 用例--【 提现金额非数字】---执行通过
+2022-09-09 16:13:45,245 - [test_audit.py-->line:84] - ERROR: 用例--【审核通过】---执行失败
+2022-09-09 16:13:45,249 - [test_audit.py-->line:85] - ERROR: '0' != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_audit.py", line 81, in testaudit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 0
+2022-09-09 16:13:45,402 - [test_audit.py-->line:84] - ERROR: 用例--【审核不通过】---执行失败
+2022-09-09 16:13:45,403 - [test_audit.py-->line:85] - ERROR: '0' != 0
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_audit.py", line 81, in testaudit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '0' != 0
+2022-09-09 16:15:03,494 - [test_audit.py-->line:88] - INFO: 用例--【审核通过】---执行通过
+2022-09-09 16:15:03,636 - [test_audit.py-->line:88] - INFO: 用例--【审核不通过】---执行通过
+2022-09-09 16:17:06,916 - [test_audit.py-->line:90] - INFO: 用例--【审核通过】---执行通过
+2022-09-09 16:17:07,060 - [test_audit.py-->line:90] - INFO: 用例--【审核不通过】---执行通过
+2022-09-09 16:29:58,535 - [test_audit.py-->line:89] - INFO: 用例--【审核通过】---执行通过
+2022-09-09 16:29:58,675 - [test_audit.py-->line:89] - INFO: 用例--【审核不通过】---执行通过
+2022-09-09 16:31:20,030 - [test_audit.py-->line:89] - INFO: 用例--【审核通过】---执行通过
+2022-09-09 16:31:20,173 - [test_audit.py-->line:89] - INFO: 用例--【审核不通过】---执行通过
+2022-09-09 16:31:20,316 - [test_audit.py-->line:85] - ERROR: 用例--【项目不是待审核状态】---执行失败
+2022-09-09 16:31:20,316 - [test_audit.py-->line:86] - ERROR: '项目不在审核状态' != '项目不在审核中状态'
+- 项目不在审核状态
++ 项目不在审核中状态
+?       +
+Traceback (most recent call last):
+  File "C:\Users\ZLD\PycharmProjects\Learn\Testcases\test_audit.py", line 83, in testaudit
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Python310\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python310\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Python310\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '项目不在审核状态' != '项目不在审核中状态'
+- 项目不在审核状态
++ 项目不在审核中状态
+?       +
+
+2022-09-09 16:31:20,468 - [test_audit.py-->line:89] - INFO: 用例--【参数为空】---执行通过
+2022-09-09 16:31:20,601 - [test_audit.py-->line:89] - INFO: 用例--【项目id为空】---执行通过
+2022-09-09 16:31:20,734 - [test_audit.py-->line:89] - INFO: 用例--【项目id不存在】---执行通过
+2022-09-09 16:31:52,226 - [test_audit.py-->line:89] - INFO: 用例--【审核通过】---执行通过
+2022-09-09 16:31:52,378 - [test_audit.py-->line:89] - INFO: 用例--【审核不通过】---执行通过
+2022-09-09 16:31:52,521 - [test_audit.py-->line:89] - INFO: 用例--【项目不是待审核状态】---执行通过
+2022-09-09 16:31:52,667 - [test_audit.py-->line:89] - INFO: 用例--【参数为空】---执行通过
+2022-09-09 16:31:52,801 - [test_audit.py-->line:89] - INFO: 用例--【项目id为空】---执行通过
+2022-09-09 16:31:52,937 - [test_audit.py-->line:89] - INFO: 用例--【项目id不存在】---执行通过
