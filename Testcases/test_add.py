@@ -9,31 +9,18 @@ from common.headler_conf import conf
 from common.headler_log import my_log
 from common.heander_mysql import HandMsql
 from common.heandler_tools import replace_data
-from common.heander_mysql import HandMsql
-
+from common.heandler_fixture import BaseTest
 
 @ddt
-class TestAdd(unittest.TestCase):
+class TestAdd(unittest.TestCase,BaseTest):
     exect = HeadleExcel(os.path.join(DATA_DTR, "testcase.xlsx"), "add")
     cases = exect.read_data()
     db = HandMsql()
 
     @classmethod
     def setUpClass(cls) -> None:
-        url = conf.get("env", "test_url") + "/member/login"
-        params = {
-            "mobile_phone": conf.get('test_data', 'phone'),
-            "pwd": conf.get('test_data', 'pwd')
-        }
-        header = eval(conf.get("env", "headers"))
-        response = requests.post(url=url, json=params, headers=header)
-        res = response.json()
-        token = jsonpath(res, "$..token")[0]
-        print(token)
-        header["Authorization"] = "Bearer " + token
-        cls.header = header
-        cls.member_id = jsonpath(res, "$..id")[0]
-        print(cls.member_id)
+        cls.user_login()
+
 
     @list_data(cases)
     def test_add(self, item):

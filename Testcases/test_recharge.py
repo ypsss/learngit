@@ -9,36 +9,23 @@ from common.headler_conf import conf
 from common.headler_log import my_log
 from common.heander_mysql import HandMsql
 from common.heandler_tools import replace_data
-
+from common.heandler_fixture import BaseTest
 
 @ddt
-class Test_recharge(unittest.TestCase):
+class Testrecharge(unittest.TestCase,BaseTest):
     exect = HeadleExcel(os.path.join(DATA_DTR, "testcase.xlsx"), "recharge")
     cases = exect.read_data()
     db = HandMsql()
 
     @classmethod
     def setUpClass(cls) -> None:
-        url = conf.get("env", "test_url") + "/member/login"
-        params = {
-            "mobile_phone": conf.get('test_data', 'phone'),
-            "pwd": conf.get('test_data', 'pwd')
-        }
-        header = eval(conf.get("env", "headers"))
-        response = requests.post(url=url, json=params, headers=header)
-        res = response.json()
-        token = jsonpath(res, "$..token")[0]
-        print(token)
-        header["Authorization"] = "Bearer " + token
-        cls.header = header
-        cls.member_id = jsonpath(res, "$..id")[0]
-        print(cls.member_id)
+        cls.user_login()
 
     @list_data(cases)
     def test_recharge(self, item):
         url = conf.get("env", "test_url") + item["url"]
         """替换数据 """
-        item["data"] = replace_data(item["data"], Test_recharge)
+        item["data"] = replace_data(item["data"], Testrecharge)
         params = eval(item["data"])
         expected = eval(item["expected"])
         method = item['method'].lower()

@@ -23,7 +23,7 @@ class HeadleExcel:
             dic = dict(zip(title, data))
             cases.append(dic)
         """获取返回的数据"""
-        return cases
+        return cases 
 
     def write_data(self, row, column, value):
         """写入excel"""
