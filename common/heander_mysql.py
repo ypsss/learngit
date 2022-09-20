@@ -15,7 +15,7 @@ class HandMsql:
     # 查询所有的sql语句
     def find_one_count(self, sql):
         with self.conect as cur:
-            cur.execute(sql)
+            cur.execute(sql) 
             res = cur.fetchall()
             # 获取结果
         return res
